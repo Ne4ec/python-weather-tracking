@@ -1,4 +1,4 @@
-# python-weather-tracking
+# Python Weather Tracking
 A program that tracks the weather using an API from OpenWeatherMap.
 _____
 ## Installation of the necessary packages
