@@ -20,10 +20,8 @@ def get_result(city):
         print(f"Weather: {weather_data['weather'][0]['description']}")
         print(f"Temperature: {weather_data['main']['temp']}°C")
         print(f"Humidity: {weather_data['main']['humidity']}%")
-    if response.status_code < 250:
+    else:
         print("The Server is not working now, try later")
 
 
 selected_city = input("Which city would you like to get weather info for?\n")
-
-print(get_result(selected_city))
