@@ -1,4 +1,3 @@
-cat main.py 
 import requests
 
 print(40 * '-')
