@@ -15,13 +15,13 @@ def get_result(city):
         weather_data = response.json() #we put all information into one variable
         print("\n")
 
-        # output: works like a dictionaries
         print(f"Selected City: {weather_data['name']}")
         print(f"Weather: {weather_data['weather'][0]['description']}")
         print(f"Temperature: {weather_data['main']['temp']}°C")
         print(f"Humidity: {weather_data['main']['humidity']}%")
     else:
-        print("The Server is not working now, try later")
+        print(f"Error: {response.status_code} - {response.json().get('message', 'Unknown error')}")
 
 
 selected_city = input("Which city would you like to get weather info for?\n")
+get_result(selected_city)
