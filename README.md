@@ -24,6 +24,7 @@ Now you can execute it by
 ```python
 python3 main.py
 ```
+![poc](https://github.com/Ne4ec/python-weather-tracking/blob/main/.poc.png)
 ____
 ## Conculution
 Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :)<br>
