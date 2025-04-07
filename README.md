@@ -4,7 +4,7 @@ _____
 ## Installation of the necessary packages
 **Notice:*** this installation is for Linux distribution<br>
 Before we begin, we need to install Python to execute the program, as well as Git to install the repository
-```python
+```bash
 sudo pacman -S python git 
 ```
 **Notice:** If you're using a different Linux distribution, make sure to use the correct `package manager`. The steps should be similar across distributions.
@@ -21,7 +21,7 @@ After a few minutes, you will receive an API key, via an Email. Copy it and repl
 api_key = "12345678901234567890" #Replace your API here  
 ```
 Now you can execute it by
-```python
+```bash
 python3 main.py
 ```
 ![poc](https://github.com/Ne4ec/python-weather-tracking/blob/main/.poc.png)
