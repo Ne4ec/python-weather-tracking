@@ -2,7 +2,7 @@
 A program that tracks the weather using an API from OpenWeatherMap.
 _____
 ## Installation of the necessary packages
-**Notice:*** this installation is for Linux distribution<br>
+### Linux  
 Before we begin, we need to install Python to execute the program, as well as Git to install the repository
 ```bash
 sudo pacman -S python git 
@@ -11,11 +11,11 @@ sudo pacman -S python git
 ____
 ## Installation
 First, install my repository and navigate into the directory
-```python
+```bash
 sudo git clone https://github.com/Ne4ec/python-weather-tracking
 cd python-weather-tracking/
 ```
-To execute the file, you need an API key (its free). Go to [OpenWeather](https://openweathermap.org/) and complete your registration.
+To execute the file, you need an API key (its free). Go to [OpenWeather](https://openweathermap.org/) <br>and complete your registration.
 After a few minutes, you will receive an API key, via an Email. Copy it and replace it on line 10, like this
 ```python
 api_key = "12345678901234567890" #Replace your API here  
