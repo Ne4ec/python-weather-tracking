@@ -12,8 +12,8 @@ ____
 ## Installation
 First, install my repository and navigate into the directory
 ```bash
-sudo git clone https://github.com/Ne4ec/python-weather-tracking
-cd python-weather-tracking/
+sudo git clone https://github.com/Ne4ec/PythonWeatherTracking
+cd PythonWeatherTracking/
 ```
 To execute the file, you need an API key (its free). Go to [OpenWeather](https://openweathermap.org/) <br>and complete your registration.
 After a few minutes, you will receive an API key, via an Email. Copy it and replace it on line 10, like this
@@ -24,7 +24,7 @@ Now you can execute it by
 ```bash
 python3 main.py
 ```
-![poc](https://github.com/Ne4ec/python-weather-tracking/blob/main/.poc.png)
+![poc](https://github.com/Ne4ec/PythonWeatherTracking/blob/main/.poc.png)
 ____
 ## Conculution
 Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :)<br>
